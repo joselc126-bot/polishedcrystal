@@ -1,4 +1,4 @@
-	bst 435,  60,  60,  60,  85,  85,  85
+	bst 435,  60,  60,  60,  135,  135,  135
 	;   bst   hp  atk  def  sat  sdf  spe
 
 	db GHOST, GHOST ; type
