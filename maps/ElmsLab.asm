@@ -225,7 +225,7 @@ CyndaquilPokeBallScript:
 	pause 15
 	disappear ELMSLAB_POKE_BALL3
 	opentext
-	getmonname CHIKORITA, STRING_BUFFER_3
+	getmonname MISDREAVUS, STRING_BUFFER_3
 	writetext LyraReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
@@ -282,8 +282,8 @@ ChikoritaPokeBallScript:
 	iftrue_jumptext ElmPokeBallText
 	turnobject ELMSLAB_ELM, DOWN
 	reanchormap
-	pokepic CHIKORITA
-	cry CHIKORITA
+	pokepic MISDREAVUS
+	cry MISDREAVUS
 	waitbutton
 	closepokepic
 	opentext
@@ -295,7 +295,7 @@ ChikoritaPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	givepoke CHIKORITA, PLAIN_FORM, 5, ORAN_BERRY
+	givepoke MISDREAVUS, PLAIN_FORM, 5, ORAN_BERRY
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
